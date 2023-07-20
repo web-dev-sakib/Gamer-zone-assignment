@@ -682,6 +682,10 @@ main {
         margin-left: 65px;
     }
 
+    .video-heading {
+        margin-right: 50px;
+    }
+
     .img-container > img {
         width: 200px;
     }
