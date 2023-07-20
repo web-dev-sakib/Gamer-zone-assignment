@@ -430,9 +430,6 @@ main {
 
 
     /* ////// navbar ///// */
-    main {
-        margin: 0;
-    }
 
     .navbar {
         margin-top: 50px;
@@ -551,7 +548,6 @@ main {
     }
 
 
-
     /* /////// play section ////// */
 
 
@@ -567,16 +563,9 @@ main {
         margin: 0 auto;
     }
 
-    .play-section {
-        
-    }
 
     .play-text {
         margin-left: 20px;
-    }
-
-    .play-text {
-        font-size: 15px;
     }
 
     .text-align {
@@ -629,7 +618,19 @@ main {
     }
     
 
-    .footer {
+    .footer-link {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        column-gap: 20px;
+        row-gap: 40px;
+    }
+
+    .footer-terms {
+        display: grid;
+        grid-template-columns: repeat(2, 180px);
+        column-gap: 20px;
+        row-gap: 40px;
+        justify-items: center;
         
     }
 }
