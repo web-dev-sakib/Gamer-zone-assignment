@@ -639,9 +639,6 @@ main {
 
 @media screen and (min-width:426px) and (max-width:768px) {
 
-    body {
-        border: 1px solid red;
-    }
     .navbar {
         box-shadow: none;
     }
